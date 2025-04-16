@@ -80,11 +80,11 @@ class User(db.Model):
 
 # Initialize Flask-Mail
 app.config['MAIL_SERVER'] = 'smtp.gmail.com'
-app.config['MAIL_PORT'] = 587
+app.config['MAIL_PORT'] = XXX
 app.config['MAIL_USE_TLS'] = True
 app.config['MAIL_USE_SSL'] = False
 app.config['MAIL_USERNAME'] = 'vavi3984@gmail.com'
-app.config['MAIL_PASSWORD'] = 'rzvf oocd tumv lqkz'  # Use app password here
+app.config['MAIL_PASSWORD'] = 'XXX'  # Use app password here
 app.config['MAIL_DEFAULT_SENDER'] = 'aviverma939@gmail.com'
 
 
